@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  font-size: 25px;
+  font-family: Arial;
+  color: white;
+  text-shadow: 0 0 4px #000, 0 0 4px #000;
+}
+#slider{
+  appearance: none;
+  width: 90%;
+  height: 35px;
+  background: #47f;
+  margin-top: 35px;
+
+}
+slider::-webkit-slider-thumb{
+ appearance: none;
+ width: 95px;
+ height: 95px;
+ background: white;
+}
+video{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+
+#Heightval{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-100%);
+  border-bottom: 3px solid white;
+  width: 100%
+}
